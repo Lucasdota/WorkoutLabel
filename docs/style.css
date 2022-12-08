@@ -1,0 +1,79 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+.sheet{
+    width:255px;
+    margin:20px auto;
+    padding:2px 8px;
+    border:2px solid black;
+}
+
+h1{ 
+    font-weight:800;
+    text-align: center;
+    margin:-8px 0 -4px;
+}
+
+header .min{
+    margin-bottom:5px;
+}
+
+.min{
+    margin:1px 0;
+    clear:right/*clearing the right side to avoid being spaced out*/
+}
+
+.max{
+    height:10px;
+    clear:right;
+    background: black;
+    border:none;
+    margin:1px 0;
+}
+
+.normal{
+    height:6px;
+    clear:right;
+    background: black;
+    border:none;
+    margin:1px 0; 
+}
+
+p{
+    margin:1px;
+}
+
+.small-font{
+    font-size:small;
+}
+
+.big-font{  
+    font-size:1.5rem;
+    margin:-3px 0;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.right{
+    float:right;
+}
+
+.indent{
+    margin-left:15px;
+}
+
+.indent2{
+    margin-left:30px;
+}
+
+.smaller-font{
+    font-size:10px;
+}
+
